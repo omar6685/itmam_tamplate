@@ -1,1 +1,24 @@
-.bg-im {}
+.bg-im {
+    background-image: url(images/Rectangle\ 41.svg);
+    /* Full height */
+    height: 100vh;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+
+}
+
+.logo {
+    margin: auto;
+    width: 106px;
+    position: relative;
+    top: 308px;
+}
+
+.deco {
+    margin: auto;
+    position: relative;
+    bottom: 10%;
+}
