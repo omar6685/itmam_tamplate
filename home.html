@@ -9,10 +9,24 @@
 </head>
 <body class="bg-im">
     <!--<img src="images/Rectangle 41.svg"  class="bg-im" alt="">-->
-    <div >
-        <img class="logo" src="images/Group 32.svg" alt="">
-        <button></button>
+    <div class="containerr">
+        <img id="logo" class="logo" src="images/Group 32.svg" alt="">
+        <div class="text">إفحص منشأتك</div>
     </div>
-    <img class="deco" src="images/Union 170.svg" alt="">
+    <img id="deco" class="deco" src="images/Union 170.svg" alt="">
 </body>
+<script>
+    window.addEventListener("load", function() {
+      var logo = document.getElementById("logo");
+      var deco = document.getElementById("deco");
+  
+      // Animate the logo
+      logo.style.width = "106px";
+      logo.style.opacity = "1";
+  
+      // Animate the deco
+      deco.style.transform = "translateY(0)";
+    });
+  </script>
+  
 </html>
