@@ -11,7 +11,7 @@
     <!--<img src="images/Rectangle 41.svg"  class="bg-im" alt="">-->
     <div class="containerr">
         <img id="logo" class="logo" src="images/Group 32.svg" alt="">
-        <div class="text">إفحص منشأتك</div>
+        <div id="text" class="text" class="text">إفحص منشأتك</div>
     </div>
     <img id="deco" class="deco" src="images/Union 170.svg" alt="">
 </body>
@@ -19,6 +19,7 @@
     window.addEventListener("load", function() {
       var logo = document.getElementById("logo");
       var deco = document.getElementById("deco");
+      var text = document.getElementById("text");
   
       // Animate the logo
       logo.style.width = "106px";
@@ -26,6 +27,10 @@
   
       // Animate the deco
       deco.style.transform = "translateY(0)";
+
+      // Animate the button
+      text.style.opacity ="1"
+
     });
   </script>
   

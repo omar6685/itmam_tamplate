@@ -79,7 +79,43 @@
     transition: transform 2.5s;
 }
 
+@media screen and (max-width: 1270px) {
+    .deco {
+        bottom: -12%;
+    }
+}
+
+
+@media screen and (max-width: 1024px) {
+    .deco {
+        bottom: -20%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .deco {
+        bottom: -35%;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .deco {
+        bottom: -45%;
+    }
+}
+
+
+@media screen and (max-width: 350px) {
+    .deco {
+        bottom: -52%;
+    }
+}
+
+
+
 .text {
+    opacity: 0;
+    transition: opacity 5s;
     background-color: rgb(50 159 218);
     border: 1px solid rgb(18 91 135);
     border-radius: 8px;
