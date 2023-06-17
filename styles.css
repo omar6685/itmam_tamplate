@@ -124,6 +124,31 @@
     box-sizing: border-box;
 }
 
+.inp-radio {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    color: white;
+}
+
+.inp-radio-l {
+    margin-left: 50px;
+}
+
+.inp-t-a {
+    border-radius: 11px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 10px;
+    height: 35%;
+    position: absolute;
+    width: 50%;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    direction: rtl;
+    padding-right: 3%;
+}
+
 .n-x {
     font-family: var(--font-family-segoeui-regular);
     font-size: var(--font-size-xs);
@@ -212,16 +237,4 @@
 
 .progress-step-active {
     background-color: #f3f3f3;
-}
-
-.inp-radio {
-    position: absolute;
-    transform: translate(-50%, -50%);
-    top: 50%;
-    left: 50%;
-    color: white;
-}
-
-.inp-radio-l {
-    margin-left: 50px;
 }
