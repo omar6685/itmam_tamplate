@@ -25,10 +25,26 @@
     left: 50%;
 }
 
+.containerr-2 {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
 .logo {
     width: 0;
     opacity: 0;
     transition: width 2.5s, opacity 1s;
+}
+
+.logo-3 {
+    width: 70px;
+}
+
+.logo-4 {
+    width: 20%;
 }
 
 .deco {
@@ -57,7 +73,7 @@
     position: absolute;
     width: 70%;
     transform: translate(-50%, -50%);
-    top: 50%;
+    top: 57%;
     left: 50%;
 }
 
