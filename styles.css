@@ -100,6 +100,30 @@
     padding-right: 3%;
 }
 
+.inp-numbers {
+
+    border-radius: 11px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 10px;
+    height: 13%;
+    position: absolute;
+    width: 50%;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    direction: rtl;
+    padding-right: 3%;
+    font-family: sans-serif;
+    max-width: 5rem;
+    padding: .5rem;
+    border: solid #ddd;
+    border-width: 0 2px;
+    font-size: 2rem;
+    height: 3rem;
+    font-weight: bold;
+    text-align: center;
+    box-sizing: border-box;
+}
+
 .n-x {
     font-family: var(--font-family-segoeui-regular);
     font-size: var(--font-size-xs);
@@ -188,23 +212,4 @@
 
 .progress-step-active {
     background-color: #f3f3f3;
-}
-
-
-.number-input,
-.number-input * {
-    box-sizing: border-box;
-}
-
-
-.number-input input[type=number] {
-    font-family: sans-serif;
-    max-width: 5rem;
-    padding: .5rem;
-    border: solid #ddd;
-    border-width: 0 2px;
-    font-size: 2rem;
-    height: 3rem;
-    font-weight: bold;
-    text-align: center;
 }
