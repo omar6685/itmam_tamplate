@@ -43,8 +43,32 @@
     width: 70px;
 }
 
+@media screen and (max-width: 768px) {
+    .logo-3 {
+        width: 60px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .logo-3 {
+        width: 90px;
+    }
+}
+
 .logo-4 {
     width: 20%;
+}
+
+@media screen and (max-width: 768px) {
+    .logo-4 {
+        width: 25%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .logo-4 {
+        width: 270px;
+    }
 }
 
 .deco {
@@ -77,6 +101,14 @@
     left: 50%;
 }
 
+@media screen and (max-width: 550px) {
+    .bg-1 {
+        backdrop-filter: 0px;
+        border-radius: 0;
+        height: 0;
+    }
+}
+
 .bg-2 {
     background: rgba(238, 235, 233, 0.1);
     border-radius: 30px;
@@ -86,6 +118,13 @@
     transform: translate(-50%, -50%);
     top: 60%;
     left: 50%;
+}
+
+@media screen and (max-width: 550px) {
+    .bg-2 {
+        width: 120%;
+    }
+
 }
 
 .c-n {
@@ -103,6 +142,13 @@
     left: 50%;
 }
 
+
+@media screen and (max-width: 550px) {
+    .c-n {
+        font-size: 20px;
+    }
+}
+
 .inp {
     border-radius: 11px;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 10px;
@@ -114,6 +160,13 @@
     left: 50%;
     direction: rtl;
     padding-right: 3%;
+}
+
+@media screen and (max-width: 550px) {
+    .inp {
+        width: 70%;
+    }
+
 }
 
 .inp-numbers {
@@ -182,6 +235,14 @@
     padding-top: 5px;
 }
 
+@media screen and (max-width: 550px) {
+    .n-x {
+        width: 30%;
+    }
+
+}
+
+
 .n-p {
     font-family: var(--font-family-segoeui-regular);
     font-size: var(--font-size-xs);
@@ -197,6 +258,13 @@
     left: 70%;
     text-align: center;
     padding-top: 5px;
+}
+
+@media screen and (max-width: 550px) {
+    .n-p {
+        width: 30%;
+    }
+
 }
 
 .form-step {
@@ -218,6 +286,12 @@
     margin-left: 40px;
     margin-right: 40px;
 
+}
+
+@media screen and (max-width: 768px) {
+    .progressbar {
+        display: none
+    }
 }
 
 .progressbar::before {
