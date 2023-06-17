@@ -189,3 +189,22 @@
 .progress-step-active {
     background-color: #f3f3f3;
 }
+
+
+.number-input,
+.number-input * {
+    box-sizing: border-box;
+}
+
+
+.number-input input[type=number] {
+    font-family: sans-serif;
+    max-width: 5rem;
+    padding: .5rem;
+    border: solid #ddd;
+    border-width: 0 2px;
+    font-size: 2rem;
+    height: 3rem;
+    font-weight: bold;
+    text-align: center;
+}
