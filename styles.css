@@ -18,6 +18,17 @@
 
 }
 
+.bg-im-2 {
+    background-image: url(images/Rectangle\ 41.svg);
+    /* Full height */
+    height: 200vh;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
 .containerr {
     position: absolute;
     transform: translate(-50%, -50%);
@@ -130,12 +141,13 @@
 .bg-1 {
     backdrop-filter: blur(50px) brightness(115%);
     border-radius: 30px;
-    height: 70%;
-    position: absolute;
+    /* height: 70%; */
+    /* position: absolute; */
     width: 70%;
-    transform: translate(-50%, -50%);
+    /* transform: translate(-50%, -50%); */
     top: 57%;
     left: 50%;
+    margin: auto;
 }
 
 @media screen and (max-width: 550px) {
@@ -143,23 +155,26 @@
         backdrop-filter: 0px;
         border-radius: 0;
         height: 0;
+        width: 85%;
+
     }
 }
 
 .bg-2 {
     background: rgba(238, 235, 233, 0.1);
     border-radius: 30px;
-    height: 300px;
-    position: absolute;
+    /* height: 300px; */
+    /* position: absolute; */
     width: 75%;
-    transform: translate(-50%, -50%);
+    /* transform: translate(-50%, -50%); */
     top: 50%;
     left: 50%;
+    margin: auto;
 }
 
 @media screen and (max-width: 550px) {
     .bg-2 {
-        width: 120%;
+        width: 100%;
     }
 
 }
@@ -171,12 +186,7 @@
     font-family: var(--font-family-segoeui-regular);
     font-weight: 400;
     letter-spacing: 0;
-    position: absolute;
     text-align: center;
-    white-space: nowrap;
-    transform: translate(-50%, -50%);
-    top: 20%;
-    left: 50%;
 }
 
 
@@ -193,11 +203,7 @@
     font-family: var(--font-family-segoeui-regular);
     font-weight: 400;
     letter-spacing: 0;
-    position: absolute;
     text-align: center;
-    transform: translate(-50%, -50%);
-    top: 20%;
-    left: 50%;
     width: 78%;
 }
 
@@ -212,11 +218,7 @@
     border-radius: 11px;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 10px;
     height: 13%;
-    position: absolute;
     width: 50%;
-    transform: translate(-50%, -50%);
-    top: 50%;
-    left: 50%;
     direction: rtl;
     padding-right: 3%;
 }
@@ -230,11 +232,7 @@
 
 .inp-p {
     border-radius: 11px;
-    position: absolute;
     width: 91%;
-    transform: translate(-50%, -50%);
-    top: 54%;
-    left: 50%;
     direction: rtl;
     padding-right: 3%;
     font-size: larger;
@@ -252,11 +250,7 @@
     border-radius: 11px;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 10px;
     height: 13%;
-    position: absolute;
     width: 50%;
-    transform: translate(-50%, -50%);
-    top: 50%;
-    left: 50%;
     direction: rtl;
     padding-right: 3%;
     font-family: sans-serif;
@@ -272,10 +266,6 @@
 }
 
 .inp-radio {
-    position: absolute;
-    transform: translate(-50%, -50%);
-    top: 50%;
-    left: 50%;
     color: white;
 }
 
@@ -287,11 +277,7 @@
     border-radius: 11px;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 10px;
     height: 35%;
-    position: absolute;
     width: 50%;
-    transform: translate(-50%, -50%);
-    top: 50%;
-    left: 50%;
     direction: rtl;
     padding-right: 3%;
 }
@@ -304,11 +290,7 @@
     box-shadow: 0px 10px 10px #00000029;
     height: 13%;
     opacity: 0.44;
-    position: absolute;
     width: 20%;
-    transform: translate(-50%, -50%);
-    top: 80%;
-    left: 30%;
     text-align: center;
     padding-top: 5px;
 }
@@ -328,11 +310,7 @@
     box-shadow: 0px 10px 10px #00000029;
     height: 13%;
     opacity: 0.44;
-    position: absolute;
     width: 20%;
-    transform: translate(-50%, -50%);
-    top: 90%;
-    left: 30%;
     text-align: center;
     padding-top: 5px;
 }
@@ -353,11 +331,7 @@
     box-shadow: 0px 10px 10px #00000029;
     height: 13%;
     opacity: 0.44;
-    position: absolute;
     width: 20%;
-    transform: translate(-50%, -50%);
-    top: 80%;
-    left: 70%;
     text-align: center;
     padding-top: 5px;
 }
@@ -377,10 +351,6 @@
     border-radius: 11px;
     box-shadow: 0px 10px 10px #00000029;
     opacity: 0.44;
-    position: absolute;
-    transform: translate(-50%, -50%);
-    top: 90%;
-    left: 70%;
     text-align: center;
     padding: 5px;
     padding-right: 10px;
@@ -395,11 +365,13 @@
 }
 
 .form-step {
-    display: none;
+    display: flex;
+    flex-direction: column;
 }
 
 .form-step-active {
-    display: block;
+    display: flex;
+    flex-direction: column;
 }
 
 
