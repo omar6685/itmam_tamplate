@@ -21,7 +21,7 @@
 .bg-im-2 {
     background-image: url(images/Rectangle\ 41.svg);
     /* Full height */
-    height: 200vh;
+    height: 225vh;
     /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
@@ -163,13 +163,13 @@
 .bg-2 {
     background: rgba(238, 235, 233, 0.1);
     border-radius: 30px;
-    /* height: 300px; */
-    /* position: absolute; */
     width: 75%;
-    /* transform: translate(-50%, -50%); */
     top: 50%;
     left: 50%;
     margin: auto;
+    padding: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 @media screen and (max-width: 550px) {
