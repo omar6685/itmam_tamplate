@@ -153,7 +153,7 @@
     position: absolute;
     width: 75%;
     transform: translate(-50%, -50%);
-    top: 60%;
+    top: 50%;
     left: 50%;
 }
 
@@ -186,6 +186,28 @@
     }
 }
 
+.c-n-p {
+    direction: rtl;
+    font-size: var(--font-size-s);
+    color: white;
+    font-family: var(--font-family-segoeui-regular);
+    font-weight: 400;
+    letter-spacing: 0;
+    position: absolute;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    top: 20%;
+    left: 50%;
+    width: 78%;
+}
+
+
+@media screen and (max-width: 550px) {
+    .c-n-p {
+        font-size: 20px;
+    }
+}
+
 .inp {
     border-radius: 11px;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 10px;
@@ -201,6 +223,25 @@
 
 @media screen and (max-width: 550px) {
     .inp {
+        width: 70%;
+    }
+
+}
+
+.inp-p {
+    border-radius: 11px;
+    position: absolute;
+    width: 91%;
+    transform: translate(-50%, -50%);
+    top: 54%;
+    left: 50%;
+    direction: rtl;
+    padding-right: 3%;
+    font-size: larger;
+}
+
+@media screen and (max-width: 550px) {
+    .inp-p {
         width: 70%;
     }
 
@@ -279,6 +320,30 @@
 
 }
 
+.n-x-p {
+    font-family: var(--font-family-segoeui-regular);
+    font-size: var(--font-size-xs);
+    background-color: #2c6ec4;
+    border-radius: 11px;
+    box-shadow: 0px 10px 10px #00000029;
+    height: 13%;
+    opacity: 0.44;
+    position: absolute;
+    width: 20%;
+    transform: translate(-50%, -50%);
+    top: 90%;
+    left: 30%;
+    text-align: center;
+    padding-top: 5px;
+}
+
+@media screen and (max-width: 550px) {
+    .n-x-p {
+        width: 30%;
+    }
+
+}
+
 
 .n-p {
     font-family: var(--font-family-segoeui-regular);
@@ -299,6 +364,31 @@
 
 @media screen and (max-width: 550px) {
     .n-p {
+        width: 30%;
+    }
+
+}
+
+
+.n-p-p {
+    font-family: var(--font-family-segoeui-regular);
+    font-size: var(--font-size-xs);
+    background-color: #2c6ec4;
+    border-radius: 11px;
+    box-shadow: 0px 10px 10px #00000029;
+    opacity: 0.44;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 90%;
+    left: 70%;
+    text-align: center;
+    padding: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+@media screen and (max-width: 550px) {
+    .n-p-p {
         width: 30%;
     }
 
