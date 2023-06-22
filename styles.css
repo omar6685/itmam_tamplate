@@ -364,13 +364,15 @@
     background-color: #2c6ec4;
     border-radius: 11px;
     box-shadow: 0px 10px 10px #00000029;
-    opacity: 0.44;
+    /* opacity: 0.44; */
     text-align: center;
     padding: 5px;
     padding-right: 10px;
     padding-left: 10px;
     margin-bottom: 40px;
     width: 50%;
+    text-decoration: none;
+    color: black;
 }
 
 @media screen and (max-width: 550px) {

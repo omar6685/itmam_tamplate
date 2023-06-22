@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<!---Coding By CodingLab | www.codinglabweb.com--->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!--<title>Registration Form in HTML CSS</title>-->
+    <!---Custom CSS File--->
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    
+    <div class="containerr-2">
+        <img id="logo" class="logo-3" src="images/Group 32.svg" alt="">
+        <img  class="logo-4" src="images/WhatsApp_Image_2023-05-05_at_18.45.56-removebg-preview.svg" alt="">
+    </div>
+    <section class="container">
+      <header class="c-n">ماهي خدمة دراسة حالة المنشأة ( فحص المنشأة ) ؟</header>
+                  <div class="form-step">
+                <div class="input-group">
+                    <p class="inp-p" id="c-n">هي خدمة ضمن الخدمات المقدمة من شركة
+                         إتمام العربية تهدف لدراسة الوضع 
+                        القائم للمنشأة لدى الجهات الحكومية واكتشاف الأخطاء 
+                        الكامنة والتي قد تتسبب في الهدر المالي الخفي او
+                         تعطل الخدمات، ثم تقديمها بتقرير مفصل للعميل مع 
+                        المقترحات والتوصيات اللازمة لحل تلك الأخطاء وتصحيحها.</p>
+                </div>
+                <a class="n-p-p" target="_blank" download="دراسة حالة منشأة ( فحص المنشأة ) (1).pdf" href="دراسة حالة منشأة ( فحص المنشأة ) (1).pdf">حمل دليل دراسة حالة المنشأة</a>
+            </div>
+      <form action="#" class="form">
+        <div class="input-box">
+          <label>اسم المنشأة</label>
+          <input type="text" placeholder="اسم المنشأة" required />
+        </div>
+
+        <div class="input-box">
+            <label>عدد فروع المنشأة</label>
+            <input type="number" placeholder="عدد فروع المنشأة" required />
+          </div>
+          <div class="input-box">
+            <label>نطاق المنشأة</label>
+            <select type="select" placeholder="عدد فروع المنشأة" required ></select>
+          </div>
+
+        <div class="column">
+          <div class="input-box">
+            <label>عدد السعوديين في المنشأة</label>
+            <input type="number" placeholder="عدد السعوديين في المنشأة" required />
+          </div>
+          <div class="input-box">
+            <label>عدد الأجانب في المنشأة</label>
+            <input type="number" placeholder="عدد الأجانب في المنشأة" required />
+          </div>
+        </div>
+        <div class="gender-box">
+          <h3>هل المنشأة ملتزمة بحماية الأجور</h3>
+          <div class="gender-option">
+            <div class="gender">
+              <input type="radio" id="check-male" name="gender" checked />
+              <label for="check-male">نعم</label>
+            </div>
+            <div class="gender">
+              <input type="radio" id="check-female" name="gender" />
+              <label for="check-female">لا</label>
+            </div>
+          </div>
+        </div>
+        
+        <div class="gender-box">
+          <h3>هل ترغب بعمل فحص حالة المنشأة</h3>
+          <div class="gender-option">
+            <div class="gender">
+              <input type="radio" id="check-male" name="gender" checked />
+              <label for="check-male">نعم</label>
+            </div>
+            <div class="gender">
+              <input type="radio" id="check-female" name="gender" />
+              <label for="check-female">لا</label>
+            </div>
+          </div>
+        </div>
+        <div class="input-box">
+            <label>الاسم الشخصي</label>
+            <input type="text" placeholder="الاسم الشخصي" required />
+          </div>
+  
+          <div class="input-box">
+            <label>البريد الإلكتروني</label>
+            <input type="email" placeholder="البريد الإلكتروني" required />
+          </div>
+          <div class="input-box">
+            <label>رقم الجوال</label>
+            <input type="number" placeholder="رقم الجوال" required />
+          </div>
+          <div class="input-box">
+            <label>اشرح المشكلة</label>
+            <textarea class="textarea" required ></textarea>
+          </div>
+  
+        <button>Submit</button>
+      </form>
+    </section>
+  </body>
+</html>
