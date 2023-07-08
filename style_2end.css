@@ -73,6 +73,7 @@ body {
 }
 .font-64 {
     font-size: 64px;
+    margin-bottom: 0px;
 }
 .font-20 {
     font-size: 20px;
@@ -81,4 +82,22 @@ body {
     width: 350px;
     position: relative;
     left: 175px;
+}
+.hero-button {
+    display: flex;
+    width: 240px;
+    height: 41px;
+    justify-content: space-around;
+    border-radius: 20px;
+    background: #C7C3C3;
+    border: none;
+}
+.wi-24 {
+    width: 24px;
+}
+.hero-button-text {
+    position: relative;
+    font-size: 20px;
+    top: 8px;
+    right: 13px;
 }
