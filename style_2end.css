@@ -1,6 +1,6 @@
 body {
     background: #EDEDF0;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 .nav {
@@ -100,4 +100,21 @@ body {
     font-size: 20px;
     top: 8px;
     right: 13px;
+}
+
+.font-96 {
+    font-size: 96px;
+} 
+.diflex {
+    display: flex;
+    justify-content: center;
+}
+
+.about-box-div {
+    display: flex;
+    justify-content: space-around;
+}
+.about-box {
+    width: 200px;
+    text-align: center;
 }
