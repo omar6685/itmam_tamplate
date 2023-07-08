@@ -7,7 +7,6 @@ body {
     height: 35px;
     line-height: 35px;
     text-align: center;
-    background: #341283;
     margin-top: 35px;
     margin-bottom: 35px;
 }
@@ -17,10 +16,12 @@ body {
     width: auto;
     height: auto;
     padding-left: 3rem;
+    position: relative;
+    bottom: 10px;
 }
 
 img {
-    max-width: 40%;
+    width: 165px;
 }
 
 
