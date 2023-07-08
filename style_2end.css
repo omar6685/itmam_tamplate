@@ -20,10 +20,12 @@ body {
     bottom: 10px;
 }
 
-img {
-    width: 165px;
-}
 
+.img_logo {
+    
+    width: 196px;
+    height: 75px;
+}
 
 .nav .main_list {
     height: 35px;
@@ -51,7 +53,7 @@ img {
     text-decoration: none;
     color: #000000;
     line-height: 35px;
-    font-size: 1.4rem;
+    font-size: 16px;
 }
 
 
