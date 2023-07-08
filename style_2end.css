@@ -1,5 +1,6 @@
 body {
     background: #EDEDF0;
+    overflow: hidden;
 }
 
 .nav {
@@ -59,4 +60,25 @@ body {
 
 .nav ul li a:hover {
     color: #341283;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.mx_wi {
+    max-width: 50%;
+}
+.font-64 {
+    font-size: 64px;
+}
+.font-20 {
+    font-size: 20px;
+}
+.main-image {
+    width: 350px;
+    position: relative;
+    left: 175px;
 }
