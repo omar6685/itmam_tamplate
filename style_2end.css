@@ -122,3 +122,30 @@ a {
     text-decoration: none;
     color: #000000;
 }
+.image-secondery {
+    position: absolute;
+    left: -314px;
+    z-index: -9;
+}
+.flexi {
+    display: flex;
+    justify-content: space-around;
+
+}
+.jci {
+    display: flex;
+    justify-content: space-around;
+}
+.clients {
+    width: 120px;
+    height: 120px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+.clients-2 {
+    width: 380px;
+    height: 120px;
+}
+.m-bi {
+    margin-bottom: 80px;
+}
