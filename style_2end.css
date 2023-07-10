@@ -149,3 +149,37 @@ a {
 .m-bi {
     margin-bottom: 80px;
 }
+.m-bi-40 {
+    margin-bottom: 40px;
+}
+.po-r-to {
+    top: 80px;
+    position: relative;
+}
+.m-bi-320 {
+    
+    margin-bottom: 400px;
+}
+.w-55i {
+    width: 55%;
+}
+.iconi {
+    width: 40px;
+    height: 40px;
+}
+
+.clients-3 {
+    margin: auto;
+    width: 120px;
+    height: 77px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.clients-4 {
+    margin: auto;
+    width: 250px;
+    height: 50px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
