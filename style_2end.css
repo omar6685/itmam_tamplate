@@ -230,3 +230,11 @@ a {
     position: relative;
     bottom: -30px;
 }
+.clients-5 {
+    width: 65%;
+    overflow: hidden;
+    margin-left: 17%;
+}
+.clients-6 {
+    margin-left: 50%;
+}
