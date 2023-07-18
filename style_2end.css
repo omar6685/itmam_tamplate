@@ -104,6 +104,7 @@ body {
     }
   }
   
+  
 
 .hero {
     display: flex;
@@ -300,4 +301,28 @@ a {
 }
 .clients-6 {
     margin-left: 50%;
+}
+
+
+@media screen and (max-width: 500px) {
+    .mx_wi {
+        max-width: none;
+    }
+    .font-96 {
+        font-size: 59px;
+        width: 163%;
+    }
+    .main-image {
+        left: -15px;
+  }
+  .font-64 {
+    font-size: 45px;
+}
+.about-box-div {
+    display: flex;
+    flex-direction: column;
+}
+.box-about {
+    margin: auto;
+}
 }
