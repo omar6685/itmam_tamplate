@@ -299,9 +299,7 @@ a {
     overflow: hidden;
     margin-left: 17%;
 }
-.clients-6 {
-    margin-left: 50%;
-}
+
 
 
 @media screen and (max-width: 500px) {
@@ -325,4 +323,22 @@ a {
 .box-about {
     margin: auto;
 }
+}
+
+@keyframes slide {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+.logos {
+    display: flex;
+}
+.logos-slide {
+    animation: 25s slide infinite linear;
+}
+.logos:hover .logos-slide {
+    animation-play-state: paused;
 }
