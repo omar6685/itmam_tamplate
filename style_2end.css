@@ -342,3 +342,34 @@ a {
 .logos:hover .logos-slide {
     animation-play-state: paused;
 }
+
+
+@media screen and (max-width: 500px) {
+    .footer {
+        display: block;
+    }
+    .w-55i {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .img-footer {
+        width: 300px;
+        height: 110px;
+        position: relative;
+        bottom: -30px;
+        left: 55px;
+    }
+}
+
+@media screen and (max-width: 321px) {
+    
+    .img-footer {
+        left: 2px;
+    }
+}
+@media screen and (max-width: 376px) {
+    
+    .img-footer {
+        left: 30px;
+    }
+}
