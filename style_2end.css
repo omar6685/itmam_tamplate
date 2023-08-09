@@ -1,6 +1,8 @@
+html {
+    overflow-x: hidden;
+}
 body {
     background: #EDEDF0;
-    overflow-x: hidden;
 }
 
 .nav {
@@ -372,4 +374,18 @@ a {
     .img-footer {
         left: 30px;
     }
+}
+@media screen and (max-width: 465px){
+.font-96 {
+    font-size: 40px;
+}
+.main-image {
+    left: -35px;
+}
+.font-64 {
+    font-size: 38px;
+}
+.img-footer {
+    left: 5px;
+}
 }
