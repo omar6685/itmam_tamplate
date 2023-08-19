@@ -556,7 +556,7 @@ a {
     font-size: 2.5em;
   }
   .pricing-palden .pricing-price {
-    font-size: 5em;
+    font-size: 2em;
     font-weight: bold;
     padding: 0;
     color: #fff;
@@ -588,7 +588,7 @@ a {
   }
   .pricing-palden .pricing-action {
     font-weight: bold;
-    margin: auto 3em 2em 3em;
+    margin: 30px 3em 2em 3em;
     padding: 1em 2em;
     color: #fff;
     border-radius: 30px;
@@ -713,4 +713,9 @@ a {
   font-size: 1rem;
   font-weight: 300;
   margin: 2em 0;
+}
+
+.li-space {
+  left: -25px;
+  position: relative;
 }
