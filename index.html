@@ -1049,13 +1049,15 @@
               <div class="mb-16">
                 <h2 class="text-3xl font-bold leading-[1.2] text-dark dark:text-white sm:text-4xl md:text-[40px]" id="contactUs">Contact Us</h2>
               </div>
-              <form class="font-bold">
+              <form 
+  action="https://formspree.io/f/xgvwdpre"
+  method="POST" class="font-bold">
                 <div class="md:col-span-2 mb-7 md:mb-[53px]">
                    <div class="flex mb-3.5 md:mb-5">
                      <img src="" alt="">
                       <label for="subject" class="float-right block text-[#25A0D5] text-base md:text-xl" id="fullName">Full Name</label>
                    </div>
-                   <input type="text" class="w-full h-12 md:h-16 rounded-2xl border border-[#C5DAE4]  bg-[#FBFBFB] py-2 px-3 focus:outline-none focus:border-[#25A0D5]">
+                   <input type="text" name="name" class="w-full h-12 md:h-16 rounded-2xl border border-[#C5DAE4]  bg-[#FBFBFB] py-2 px-3 focus:outline-none focus:border-[#25A0D5]">
                 </div>
                <div class="grid md:grid-cols-2 grid-cols-1 gap-7 md:gap-[53px]">
                 <div>
@@ -1070,14 +1072,14 @@
                       <img src="" alt="">
                       <label for="phone" class="float-right block  text-[#25A0D5] text-base md:text-xl" id="email">Email</label>
                    </div>
-                   <input type="email" name="" id="" class="w-full h-12 md:h-16 rounded-2xl border border-[#C5DAE4]  bg-[#FBFBFB] py-2 px-3 focus:outline-none focus:border-[#25A0D5]">
+                   <input type="email" name="email" id="" class="w-full h-12 md:h-16 rounded-2xl border border-[#C5DAE4]  bg-[#FBFBFB] py-2 px-3 focus:outline-none focus:border-[#25A0D5]">
                 </div>
                    <div class="md:col-span-2">
                       <label for="phone" class="ltr:float-left rtl:float-right block text-[#25A0D5] text-lg mb-6" id="message">Your message</label>
-                      <textarea name="" placeholder=" Write in detail what you're facing so we can solve it as quickly as possible." id="" class="w-full h-64 rounded-2xl border border-[#C5DAE4]  bg-[#FBFBFB] py-2 px-3 focus:outline-none focus:border-[#25A0D5]"></textarea>
+                      <textarea name="message" placeholder=" Write in detail what you're facing so we can solve it as quickly as possible." id="" class="w-full h-64 rounded-2xl border border-[#C5DAE4]  bg-[#FBFBFB] py-2 px-3 focus:outline-none focus:border-[#25A0D5]"></textarea>
                    </div>
                    <div class="md:col-span-2">
-                     <button class="text-white bg-[#25A0D5] hover:bg-primary-800 focus:ring-4 focus:ring-primary-300  rounded-lg text-base px-4 lg:px-5 py-2 lg:py-2.5   focus:outline-none  w-64 h-11 flex justify-center  m-auto" id="send">Send</button>
+                     <button class="text-white bg-[#25A0D5] hover:bg-primary-800 focus:ring-4 focus:ring-primary-300  rounded-lg text-base px-4 lg:px-5 py-2 lg:py-2.5   focus:outline-none  w-64 h-11 flex justify-center  m-auto" type="submit" id="send">Send</button>
                    </div>
                </div><!-- Grid End -->
               </form>
