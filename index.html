@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Itmam</title>
+    <title id="title">Etmam Alarabia</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -33,19 +33,19 @@
       <div class="hidden w-full md:block md:w-auto" id="navbar-default">
         <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
           <li>
-            <a href="#" class="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-[#329fda] md:p-0" aria-current="page" id="home">Home</a>
+            <a href="index.html" class="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-[#329fda] md:p-0" aria-current="page" id="home">Home</a>
           </li>
           <li>
-            <a href="#" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#329fda] md:p-0" id="about">About</a>
+            <a href="#about-section" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#329fda] md:p-0" id="about">About</a>
           </li>
           <li>
-            <a href="#" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#329fda] md:p-0" id="services">Services</a>
+            <a href="services.html" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#329fda] md:p-0" id="services">Services</a>
           </li>
           <li>
-            <a href="#" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#329fda] md:p-0" id="packages">Packages</a>
+            <a href="#pricing" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#329fda] md:p-0" id="packages">Packages</a>
           </li>
           <li>
-            <a href="#" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#329fda] md:p-0" id="contact">Contact</a>
+            <a href="#contact-section" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#329fda] md:p-0" id="contact">Contact</a>
           </li>
           <li>
             <button onclick="toggleDirection('ar')" class=" language-btn Ar block py-2 px-3  rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#329fda] md:p-0" id="ar">العربية</button>
@@ -60,7 +60,7 @@
   
     
     <div class="">
-        <div class="flex justify-between items-center my-40 mx-auto max-w-screen-xl bg-gray-100">
+        <div id="about-section" class="flex justify-between items-center my-40 mx-auto max-w-screen-xl bg-gray-100">
             <div class="md:w-1/2">
                 <h2 class="text-3xl md:text-4xl	lg:text-6xl mb-4" id="slugain">Manage your business</h2>
                 <p class="text-sm md:text-base lg:text-xl mb-6" id="slugain2">A newly established Saudi company to keep pace with the rapid changes and rapid development in the field of e-government as Etmam Al-Arabia has a team of experts in the field of e-government relations And field workers with high efficiency, in addition to the presence of an expert cadre in human materials.</p>
@@ -1043,7 +1043,7 @@
         </div>
 
         <!-- ====== FAQ Section End -->
-        <section class="max-w-4xl lg:mx-auto mx-auto text-center pt-16">
+        <section id="contact-section" class="max-w-4xl lg:mx-auto mx-auto text-center pt-16">
           <div class=" px-7 rounded-md">
       
               <div class="mb-16">
@@ -1053,12 +1053,21 @@
   action="https://formspree.io/f/xgvwdpre"
   method="POST" class="font-bold">
                 <div class="md:col-span-2 mb-7 md:mb-[53px]">
-                   <div class="flex mb-3.5 md:mb-5">
-                     <img src="" alt="">
-                      <label for="subject" class="float-right block text-[#25A0D5] text-base md:text-xl" id="fullName">Full Name</label>
-                   </div>
-                   <input type="text" name="name" class="w-full h-12 md:h-16 rounded-2xl border border-[#C5DAE4]  bg-[#FBFBFB] py-2 px-3 focus:outline-none focus:border-[#25A0D5]">
-                </div>
+                  <div class="flex mb-3.5 md:mb-5">
+                    <img src="" alt="">
+                     <label for="subject" class="float-right block text-[#25A0D5] text-base md:text-xl" id="fullName">Full Name</label>
+                  </div>
+                  <input type="text" name="name" class="w-full h-12 md:h-16 rounded-2xl border border-[#C5DAE4]  bg-[#FBFBFB] py-2 px-3 focus:outline-none focus:border-[#25A0D5]">
+                  <div class="flex mb-3.5 md:mb-5 mt-7">
+                    <img src="" alt="">
+                     <label for="subject" class="float-right block text-[#25A0D5] text-base md:text-xl" id="companySize">Company Size</label>
+                  </div>
+                  <select type="text" name="company_size" class="w-full h-12 md:h-16 rounded-2xl border border-[#C5DAE4]  bg-[#FBFBFB] py-2 px-3 focus:outline-none focus:border-[#25A0D5]">
+                    <option value="1-30" id="employees1">1 - 30 employees</option>
+                    <option value="31-100" id="employees2">31 - 100 employees</option>
+                    <option value="101-200" id="employees3">101 - 200 employees</option>
+                  </select>
+               </div>
                <div class="grid md:grid-cols-2 grid-cols-1 gap-7 md:gap-[53px]">
                 <div>
                    <div class="flex mb-3.5 md:mb-5">
