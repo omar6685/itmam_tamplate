@@ -56,7 +56,7 @@ const translations = {
     quality2: "Quality of performance and speed of work",
     consulting: "Consulting",
     consulting2: "Providing consultations and analytical studies",
-    packages2: "Packages Table",
+    packages2: "Packages and Services",
     package3: "Services Packages Plan",
     month1: "Per Month",
     month2: "Per Month",
@@ -110,6 +110,10 @@ const translations = {
     trp4: "Report on observations and warnings from government entities that may cause some services to be disrupted.",  
     trp5: "Specialized reports (Nitaqat, nationality ratios, Saudized jobs, non-counted labor).",
     companySize: "Company Size",
+    go1: "For all government platforms and field transactions",
+    go2: "For all government platforms and field transactions",
+    go3: "For all government platforms and field transactions",
+
 
 
   },
@@ -131,7 +135,7 @@ const translations = {
     quality2: "نتميز في جودة أداء وتنفيذ العمليات وسرعة العمل عليها وتسليمها مما يزيد كفاءة العمليات الحكومية",
     consulting: "استشارات",
     consulting2: "تقديم الاستشارات والدراسات التحليلية للمنشآت التي تساعدهم على اتخاذ أفضل القرارات المناسبة",
-    packages2: "جدول الباقات",
+    packages2: "الخدمات والباقات",
     package3: "خطة باقات الخدمات",
     month1: "شهرياً",
     month2: "شهرياً",
@@ -185,6 +189,9 @@ const translations = {
     trp4: "تقرير بالملاحظات والتنبيهات لدى الجهات الحكومية والتي قد تتسبب في تعطل بعض الخدمات.",
     trp5: "تقارير متخصصة (نطاقات – نسب الجنسيات – المهن الموطنة – العمالة الغير محتسبين)",
     companySize: "حجم المنشأة",
+    go1: "لجميع المنصات الحكومية والمعاملات الميدانية",
+    go2: "لجميع المنصات الحكومية والمعاملات الميدانية",
+    go3: "لجميع المنصات الحكومية والمعاملات الميدانية",
 
   }
 };
